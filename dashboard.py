@@ -19,9 +19,8 @@ st.write(
 # ===============================
 # LOAD MODEL
 # ===============================
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "../dashboard/churn_pipeline.pkl")
-
+BASE_DIR = os.path.dirname(__file__)
+MODEL_PATH = os.path.join(BASE_DIR, "churn_pipeline.pkl")
 pipeline = joblib.load(MODEL_PATH)
 
 # ===============================
