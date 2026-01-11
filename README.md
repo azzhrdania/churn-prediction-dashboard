@@ -101,6 +101,11 @@ Dirancang agar:
 
 ---
 
+## 🚀 Live Demo
+Coba dashboard interaktif di sini:  
+
+[👉 Buka Customer Churn Prediction Dashboard](https://churn-prediction-1001.streamlit.app/)  
+
 ## 🧪 Teknologi yang Digunakan
 - **Python**  
 - **Pandas & NumPy**  
